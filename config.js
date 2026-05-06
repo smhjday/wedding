@@ -42,7 +42,6 @@ const CONFIG = {
     hall: "제이포레홀 6층",
     address: "경기 평택시 비전5로 20-46",
     tel: "0507-1441-5300",
-    "차량 이용시 웨딩홀 주변의 교통 혼잡이 예상되오니 대중교통 이용을 부탁드립니다.",
     mapLinks: {
       kakao: "https://kko.to/ukC3-Dt-j2",
       naver: "https://naver.me/FxFtMUKh"

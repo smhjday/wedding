@@ -788,7 +788,7 @@ a {
   display: flex;
   gap: 24px;
   justify-content: center;
-   margin-top: 30px;
+  padding-top: 30px;
 }
 
 /* ═══════════════════════════════════════════
@@ -1172,7 +1172,7 @@ a {
 .location__shuttle-image {
   width: 100%;
   max-width: 500px;
-  margin: 18px auto 30;
+  margin: 18px auto 30px;
 }
 
 .location__shuttle-image img {

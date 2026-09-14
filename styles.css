@@ -1172,7 +1172,7 @@ a {
 .location__shuttle-image {
   width: 100%;
   max-width: 500px;
-  margin: 18px auto 0;
+  margin: 18px auto 30;
 }
 
 .location__shuttle-image img {

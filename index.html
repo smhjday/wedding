@@ -140,28 +140,38 @@
     </section>
 
     <!-- ─── Location Section ─── -->
-    <section class="section location" id="location">
-      <div class="section__inner">
-        <h2 class="section__title animate-item" data-animate="fade-up">오시는 길</h2>
-        <div class="location__info animate-item" data-animate="fade-up">
-          <p class="location__venue" id="locationVenue"></p>
-          <p class="location__hall" id="locationHall"></p>
-          <p class="location__address" id="locationAddress"></p>
-          <p class="location__tel" id="locationTel"></p>
-        </div>
-        <button class="btn btn--text location__copy animate-item" data-animate="fade-up" id="copyAddressBtn">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>
-          주소 복사
-        </button>
-        <div class="location__map animate-item" data-animate="scale-in">
-          <img class="location__map-img" id="locationMapImg" src="" alt="약도" loading="lazy">
-        </div>
-        <div class="location__links animate-item" data-animate="fade-up">
-          <a class="btn btn--kakao" id="kakaoMapBtn" href="#" target="_blank" rel="noopener">카카오맵</a>
-          <a class="btn btn--naver" id="naverMapBtn" href="#" target="_blank" rel="noopener">네이버지도</a>
-        </div>
-      </div>
-    </section>
+<section class="section location" id="location">
+  <div class="section__inner">
+    <h2 class="section__title animate-item" data-animate="fade-up">오시는 길</h2>
+
+    <div class="location__info animate-item" data-animate="fade-up">
+      <p class="location__venue" id="locationVenue"></p>
+      <p class="location__hall" id="locationHall"></p>
+      <p class="location__address" id="locationAddress"></p>
+      <p class="location__tel" id="locationTel"></p>
+
+      <!-- 셔틀버스 안내 -->
+      <p class="location__shuttle">
+        🚐 평택역에서 예식장까지 셔틀버스가 운행됩니다.<br>
+        <strong>평택역 출발 · 30분 간격 운행</strong>
+      </p>
+    </div>
+
+    <button class="btn btn--text location__copy animate-item" data-animate="fade-up" id="copyAddressBtn">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>
+      주소 복사
+    </button>
+
+    <div class="location__map animate-item" data-animate="scale-in">
+      <img class="location__map-img" id="locationMapImg" src="" alt="약도" loading="lazy">
+    </div>
+
+    <div class="location__links animate-item" data-animate="fade-up">
+      <a class="btn btn--kakao" id="kakaoMapBtn" href="#" target="_blank" rel="noopener">카카오맵</a>
+      <a class="btn btn--naver" id="naverMapBtn" href="#" target="_blank" rel="noopener">네이버지도</a>
+    </div>
+  </div>
+</section>
 
     <!-- ─── Account Section (축의금) ─── -->
     <section class="section account" id="account">

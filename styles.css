@@ -786,7 +786,7 @@ a {
 
 .location__links {
   display: flex;
-  gap: var(--spacing-sm);
+  gap: 24px;
   justify-content: center;
 }
 

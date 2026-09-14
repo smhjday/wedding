@@ -1168,3 +1168,14 @@ a {
 .location__shuttle strong {
   font-weight: 500;
 }
+.location__shuttle-image {
+  width: 100%;
+  max-width: 500px;
+  margin: 18px auto 0;
+}
+
+.location__shuttle-image img {
+  width: 100%;
+  display: block;
+  border-radius: 8px;
+}

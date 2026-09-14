@@ -1158,3 +1158,13 @@ a {
     transform: none !important;
   }
 }
+.location__shuttle {
+  font-size: 13px;
+  line-height: 1.7;
+  margin-top: 12px;
+  font-weight: 400;
+}
+
+.location__shuttle strong {
+  font-weight: 500;
+}

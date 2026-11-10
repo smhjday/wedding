@@ -214,5 +214,52 @@
   </main>
 
   <script src="script.js"></script>
+
+<audio id="weddingMusic" autoplay loop preload="auto">
+  <source src="./wedding.mp3" type="audio/mpeg">
+</audio>
+
+<button id="musicButton" style="
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 9999;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 25px;
+  background: #f5e9e5;
+  color: #654b45;
+  cursor: pointer;
+">
+  ♫ 음악 재생
+</button>
+
+<script>
+  const music = document.getElementById('weddingMusic');
+  const button = document.getElementById('musicButton');
+
+  music.volume = 0.3;
+
+  music.play().then(() => {
+    button.textContent = '♫ 음악 끄기';
+  }).catch(() => {
+    button.textContent = '♫ 음악 재생';
+  });
+
+  button.addEventListener('click', async () => {
+    if (music.paused) {
+      try {
+        await music.play();
+        button.textContent = '♫ 음악 끄기';
+      } catch (error) {
+        button.textContent = '음악 재생에 실패했어요';
+      }
+    } else {
+      music.pause();
+      button.textContent = '♫ 음악 재생';
+    }
+  });
+</script>
+  
 </body>
 </html>
